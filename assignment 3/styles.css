@@ -1,0 +1,43 @@
+h1 {
+    color: green;
+    background-color: #0000ff;
+}
+
+h2 {
+    color: brown;
+    background-color: green;
+}
+
+.turnred {
+    color: red;
+    font-weight: bold;
+}
+
+.browngreen {
+    color: brown;
+    background-color: green;
+}
+
+#orangeblue {
+    color: orange;
+    background-color: blue;
+}
+
+#greenbrown {
+    color: green;
+    background-color: brown;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #cccccc;
+}
+
+a:hover {
+    color: #00ff00;
+    text-decoration: underline;
+}
