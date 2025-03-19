@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('cool-gray-61nfwad1bullevu4.jpg');
+  background-size: cover;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.header {
+  background-color: #74c8e9;
+  text-align: center;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+  color: black;
+}
+
+.navbar {
+  background-color: black;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: darkgreen;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.left {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.left h2 {
+  color: black;
+}
+
+.left .link {
+  color: green;
+  text-decoration: none;
+}
+
+.left .link:hover {
+  text-decoration: underline;
+}
+
+.left img {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+.right {
+  flex: 1;
+  background-color: #48cbff;
+  padding: 20px;
+  border-left: 1px solid black;
+}
+
+.right h2 {
+  color: black;
+}
+
+.right .italic {
+  font-style: italic;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
