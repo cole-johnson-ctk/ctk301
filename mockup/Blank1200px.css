@@ -1,0 +1,37 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.8); /* awesome see through box */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 24px;
+}
+
+#name-box {
+  background-color: #f0f0f0;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#description {
+  padding: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button img {
+  width: 100px;
+  height: auto;
+}
