@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tutorials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .go-back {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+        }
+        .container {
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.8);
+            border: 2px solid white;
+            border-radius: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .video-link {
+            display: inline-block;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<a class="go-back" href="Blank1200px.html">Go Back</a>
+
+<div class="container">
+    <h1>Check out my Tutorials!</h1>
+    <div style="text-align: center;">
+        <a class="video-link" data-fancybox href="https://www.youtube.com/watch?v=uqZHE8m_gho">
+            <img src="https://img.youtube.com/vi/uqZHE8m_gho/0.jpg" alt="Video 1" width="500" />
+        </a>
+        <a class="video-link" data-fancybox href="https://www.youtube.com/watch?v=FRvROApW92Q">
+            <img src="https://img.youtube.com/vi/FRvROApW92Q/0.jpg" alt="Video 2" width="500" />
+        </a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('[data-fancybox]').fancybox({
+            iframe: {
+                css: {
+                    width: '80%',
+                    height: '80%'
+                }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

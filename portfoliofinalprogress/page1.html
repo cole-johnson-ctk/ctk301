@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tutorials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        .go-back {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+        }
+        .container {
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.8);
+            border: 2px solid white;
+            border-radius: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .carousel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+        .video-link img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+        h1 {
+            text-align: center;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<a class="go-back" href="Blank1200px.html">Go Back</a>
+
+<div class="container">
+    <h1>Check out my Beats!</h1>
+    <div class="container">
+        <h3 style="text-align: center;">Don't be shy, take a gander...</h3>
+        <div class="carousel">
+            <a class="video-link" data-fancybox href="https://youtu.be/CwDDOdQX9DE?si=1iJByuh-NodbzPFM">
+                <img src="https://img.youtube.com/vi/CwDDOdQX9DE/0.jpg" alt="Video 1" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/-ng69DPV4jk?si=wigL2lCyejqGJFNv">
+                <img src="https://img.youtube.com/vi/-ng69DPV4jk/0.jpg" alt="Video 2" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/8GNhhWG4TEA?si=_iXTtth8x7j37ZKL">
+                <img src="https://img.youtube.com/vi/8GNhhWG4TEA/0.jpg" alt="Video 3" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/ovkT05M6kQk?si=0ibCaJD4vIE00mL_">
+                <img src="https://img.youtube.com/vi/ovkT05M6kQk/0.jpg" alt="Video 4" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/U3VpYXwfoIQ?si=WGKOf6nsp5lXGQyR">
+                <img src="https://img.youtube.com/vi/U3VpYXwfoIQ/0.jpg" alt="Video 5" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/F_j225EknNI?si=J8GTZTUWXUh2dk2b">
+                <img src="https://img.youtube.com/vi/F_j225EknNI/0.jpg" alt="Video 6" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/6lzjizxCr9g?si=kyl6fEd5SGeEXRXi">
+                <img src="https://img.youtube.com/vi/6lzjizxCr9g/0.jpg" alt="Video 7" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/T7VJ6v0HA2M?si=fq2_Lnaudkp_yKEI">
+                <img src="https://img.youtube.com/vi/T7VJ6v0HA2M/0.jpg" alt="Video 8" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/gGDSUPc0kWU?si=cTZGoNqHRTSKbGpP">
+                <img src="https://img.youtube.com/vi/gGDSUPc0kWU/0.jpg" alt="Video 9" />
+            </a>
+            <a class="video-link" data-fancybox href="https://youtu.be/HtuUnlJdARI?si=wdxH1VrqyKaNGbeu">
+                <img src="https://img.youtube.com/vi/HtuUnlJdARI/0.jpg" alt="Video 10" />
+            </a>
+        </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('[data-fancybox]').fancybox({
+            iframe: {
+                css: {
+                    width: '80%',
+                    height: '80%'
+                }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
