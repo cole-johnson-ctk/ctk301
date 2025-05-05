@@ -1,0 +1,102 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 24px;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-button {
+  padding: 10px 20px;
+  border: 2px solid #ffeb3b;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.social-button:hover {
+  background-color: #ffeb3b;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 235, 59, 0.5);
+  transform: scale(1.05);
+}
+
+#name-box {
+  background-color: #f0f0f0;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+#description {
+  padding: 16px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 0px black, 
+               -1px -1px 0px black, 
+               1px -1px 0px black, 
+               -1px 1px 0px black;
+}
+
+#description a {
+  color: #ffeb3b;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px black, 
+               -1px -1px 0px black, 
+               1px -1px 0px black, 
+               -1px 1px 0px black;
+}
+
+#description a:hover {
+  text-decoration: underline;
+}
+
+.video-ph {
+  text-align: center;
+  padding: 16px;
+  border: 1px dashed #ccc;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button img {
+  width: 100px;
+  height: auto;
+  border: 2px solid #ffeb3b;
+  transition: transform 0.3s;
+}
+
+.button img:hover {
+  transform: scale(1.05);
+}
+
+#name-box h1 {
+  color: black;
+  text-shadow: 1px 1px 0px yellow, 
+               -1px -1px 0px yellow, 
+               1px -1px 0px yellow, 
+               -1px 1px 0px yellow;
+}
